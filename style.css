@@ -1,0 +1,67 @@
+
+:root{
+    --primary:#1a2130 !important;
+    --primary-color:white;
+}
+.primary{
+background-color: var(--primary) !important;
+}
+.primary-color{
+color:var(--primary-color)
+}
+/* hwarder */
+.header-bg{
+background: linear-gradient(#16222A,#3A6073);
+background-size: cover;
+}
+.logo-img-sm{
+    width: 60px;
+}
+.header-button{
+    background: linear-gradient(0.25turn, #E16DB3, #B772FC);
+}
+/* bottom */
+.AnirudhRavichander{
+    min-height: 86vh;
+}
+.bottom{
+    height: 80px;
+    flex-direction: column;
+}
+#myprogressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songlist{
+    min-height: 75vh;
+    background-image: url(./img/Anirudh-Ravichander.jpg);
+    background-size: cover;
+}
+.songitem{
+    height: 50px;
+}
+.songitem img{
+width:7%;
+}
+/*  */
+.VijayAntony{
+    min-height: 86vh;
+}
+.VijayAntony .songlist{
+    background-image: url(./img/VijayAntony-54.jpg);
+    background-size:cover;
+}
+/*  */
+.AR-rahman{
+    min-height: 86vh;
+}
+.AR-rahman .songlist{
+    background-image: url(./img/a_r_rahman_90-orig1571129450.jpg);
+    background-size:cover;
+}
+/* play */
+
+.Play-list .songlist{
+background: linear-gradient(#16222A,#3A6073);
+background-size: cover;
+}
